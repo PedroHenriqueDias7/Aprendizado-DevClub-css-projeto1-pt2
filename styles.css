@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background: #f2f2f2;
+}
+
+.container {
+    width: 1440px;
+    height: 900px;
+    background: white;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+h1 {
+    width: 368px;
+    height: 160px;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 80px;
+    color: #5D5D7D;
+    margin: 381px 0 0 136px;
+}
+
+p {
+    width: 549px;
+    height: 144px;
+    opacity: 60%;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    color: #5D5D7D;
+    margin: 15px 0 0 136px;
+}
+
+button {
+    width: 269px;
+    height: 62px;
+    border-radius: 50px;
+    margin: 15px 0 0 136px;
+    background: #9994ea;
+    border: none;
+    color: #ffffff;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+.img-desafio {
+    width: 456px;
+    height: 561.95px;
+    position: absolute;
+    top: 215px;
+    left: 807px;
+}
+
+.div-section {
+    width: 491px;
+    height: 901px;
+    opacity: 16%;
+    background: #5D5D7D;
+    margin-left: 949px;
+    position: absolute; 
+    top: 0;
+}
+
+header {
+    width: 376px;
+    height: 41.12px;
+    position: absolute;
+    top: 24px;
+    margin-left: 970px;
+    display: flex;
+    justify-content: center;
+    z-index: 5;
+}
+
+a {
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
+    color: #5D5D7D;
+    text-decoration: none;
+    padding-right: 25px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+a:nth-child(2) {
+    opacity: 40%;
+}
+
+a:hover {
+    opacity: 0.3;
+}
+
+@media screen and (max-width: 900px) {
+    
+}
