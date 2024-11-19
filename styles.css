@@ -101,10 +101,6 @@ a {
     cursor: pointer;
 }
 
-a:nth-child(2) {
-    opacity: 40%;
-}
-
 a:hover {
     opacity: 0.3;
 }
